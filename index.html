@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instant Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="con">
+    <div class="div1">
+        <div class="div2">
+            <h1>Instant Math Quiz</h1>
+        </div>
+
+        <p>Select an operation:
+            <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">×</option>
+            <option value="/">÷</option>
+        </select>
+        </p>
+        <div id="quiz"></div>
+        <button class="button" onclick="generateQuestion()">Next Question</button>
+        <button class="button" onclick="endQuiz()">End Quiz</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
